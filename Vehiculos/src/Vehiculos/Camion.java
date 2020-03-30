@@ -4,6 +4,12 @@ public class Camion extends Vehiculo {
 
 	private byte numeroEjes;
 
+	
+	
+	public void ver() {
+		System.out.println("Camion [numeroEjes=" + numeroEjes + "]");
+	}
+
 	public Camion (byte numRuedas) {
 		super (numRuedas);
 	}
@@ -32,6 +38,6 @@ public class Camion extends Vehiculo {
 	public void getNumeroEjes (byte numEjes) {
 		this.numeroEjes = numEjes;
 	}
-
+	
 }
 

@@ -7,6 +7,13 @@ public class Vehiculo {
 		private short cilindrada;
 		private short potencia;
 
+		
+	
+		public void ver() {
+			System.out.println("Vehiculo [color=" + color + ", numeroRuedas=" + numeroRuedas + ", cilindrada=" + cilindrada
+					+ ", potencia=" + potencia + "]");
+		}
+
 		public Vehiculo (String col){
 			this.color = col;
 		}
@@ -60,6 +67,8 @@ public class Vehiculo {
 		 public void setNumeroRuedas (byte numRuedas) {
 			 this.numeroRuedas = numRuedas;
 		 } 
+		 
+		
 }
 
 
